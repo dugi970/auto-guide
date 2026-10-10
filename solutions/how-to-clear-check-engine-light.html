@@ -1,0 +1,774 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to Clear the Check Engine Light Safely - AutoGuide</title>
+
+    <meta name="description" content="Learn how to clear a check engine light, what disconnecting the battery does, how to use an OBD2 scanner, and why clearing the light does not fix the underlying problem.">
+
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- СТИЛІ ДЛЯ СЕКЦІЇ З САЙДБАРОМ -->
+    <style>
+        .page-layout {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+
+        .main-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .sidebar {
+            width: 160px;
+            position: sticky;
+            top: 20px;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 900px) {
+            .page-layout {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
+
+            <div class="logo">
+                <a href="../index.html">Auto<span>Guide</span></a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Toggle Navigation">☰</button>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../symptoms/index.html">Symptoms</a></li>
+                    <li><a href="index.html">Solutions</a></li>
+                    <li><a href="../explanations/index.html">Explanations</a></li>
+                    <li><a href="../about.html">About</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main class="container" style="padding-top: 20px; padding-bottom: 40px; max-width: 1100px;">
+
+        <!-- BREADCRUMBS -->
+        <nav style="font-size: 0.85rem; color: #718096; margin-bottom: 15px;">
+            <a href="../index.html">Home</a> &rsaquo;
+            <a href="index.html">Solutions</a> &rsaquo;
+            <span>How to Clear Check Engine Light</span>
+        </nav>
+
+
+        <!-- ДВОКОЛОНКОВИЙ ЛЕЙАУТ -->
+        <div class="page-layout">
+
+            <!-- ЛІВА КОЛОНКА -->
+            <div class="main-content">
+
+                <article>
+
+                    <!-- H1 -->
+                    <h1 style="font-size: 2.1rem; color: var(--primary-color); line-height: 1.25; margin-bottom: 12px;">
+                        How to Clear the Check Engine Light Safely
+                    </h1>
+
+                    <div style="font-size: 0.85rem; color: #718096; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+                        Published: Oct 2026 | Written by <strong>AutoGuide Editorial Team</strong>
+                    </div>
+
+
+                    <!-- QUICK ANSWER BOX -->
+                    <div style="background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px 20px; margin-bottom: 25px; border-radius: 0 6px 6px 0;">
+
+                        <strong style="color: #2b6cb0; font-size: 1.05rem;">
+                            Quick Answer:
+                        </strong>
+
+                        <p style="margin-top: 5px; font-size: 0.95rem; color: #2d3748;">
+                            The safest way to clear a Check Engine light is to first read the
+                            diagnostic trouble code with an <strong>OBD2 scanner</strong> and
+                            address the underlying problem. After the repair, the scanner can
+                            usually clear stored codes. Disconnecting the battery may also clear
+                            some vehicle codes, but it can reset learned settings and may not
+                            be appropriate for every vehicle.
+                        </p>
+
+                    </div>
+
+
+                    <!-- HERO IMAGE -->
+                    <div style="margin-bottom: 25px;">
+                        <img
+                            src="../images/articles/how-to-clear-check-engine-light.jpg"
+                            alt="Using an OBD2 scanner to check and clear a vehicle check engine light"
+                            style="width: 100%; border-radius: 6px; background-color: #edf2f7; display: block;"
+                        >
+                    </div>
+
+
+                    <!-- INTRO -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 30px; margin-bottom: 12px;">
+                        What Does the Check Engine Light Mean?
+                    </h2>
+
+                    <p style="margin-bottom: 15px;">
+                        The Check Engine light, also called the malfunction indicator lamp or
+                        MIL, is part of the vehicle's onboard diagnostic system. It can turn on
+                        when the computer detects a problem involving the engine, emissions,
+                        fuel, ignition, or another monitored system.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        A Check Engine light does not identify the failed part by itself. The
+                        vehicle stores diagnostic information that can be retrieved with a
+                        compatible OBD2 scanner.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        This is why simply clearing the light is different from fixing the
+                        problem that caused it.
+                    </p>
+
+
+                    <!-- BEFORE CLEARING -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 30px; margin-bottom: 12px;">
+                        Check the Light Before Clearing It
+                    </h2>
+
+                    <p style="margin-bottom: 15px;">
+                        Before clearing any diagnostic code, record the stored trouble codes
+                        and any available freeze-frame information. This information can be
+                        useful if the problem returns later.
+                    </p>
+
+                    <ul style="padding-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+                        <li>Note whether the Check Engine light is steady or flashing.</li>
+                        <li>Pay attention to unusual engine noises, smells, or performance problems.</li>
+                        <li>Record the diagnostic trouble codes before erasing them.</li>
+                        <li>Save freeze-frame data if your scanner provides it.</li>
+                        <li>Check the owner's manual for vehicle-specific instructions.</li>
+                    </ul>
+
+
+                    <div style="background-color: #fff5f5; border-left: 4px solid #e53e3e; padding: 15px 20px; margin: 20px 0; border-radius: 0 6px 6px 0;">
+
+                        <strong style="color: #c53030;">
+                            Important Warning:
+                        </strong>
+
+                        <p style="margin-top: 5px; color: #4a5568;">
+                            If the Check Engine light is <strong>flashing</strong>, especially
+                            while the engine is running poorly, avoid treating it as a simple
+                            reset issue. A flashing light can indicate a serious condition that
+                            may damage the catalytic converter or other components.
+                        </p>
+
+                    </div>
+
+
+                    <!-- REKLAMA: IN-ARTICLE BANNER -->
+                    <div class="ad-placeholder ad-banner" style="margin: 25px 0; text-align: center;">
+                        <!-- сюди встане код другого банера -->
+                    </div>
+
+
+                    <!-- OBD2 METHOD -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 30px; margin-bottom: 12px;">
+                        How to Clear a Check Engine Light With an OBD2 Scanner
+                    </h2>
+
+
+                    <!-- STEP 1 -->
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        1. Locate the OBD2 Port
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Most modern vehicles have an OBD2 diagnostic connector underneath
+                        the dashboard near the driver's side. The exact location varies by
+                        vehicle.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        If you cannot find the connector, check the owner's manual or the
+                        vehicle's documentation for its location.
+                    </p>
+
+
+                    <!-- STEP 2 -->
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        2. Connect the OBD2 Scanner
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Plug the compatible OBD2 scanner into the diagnostic connector.
+                        Follow the scanner manufacturer's instructions for powering on
+                        and communicating with the vehicle.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        Some scanners power on immediately through the diagnostic connector,
+                        while others may require the ignition to be switched to a specific
+                        position.
+                    </p>
+
+
+                    <!-- STEP 3 -->
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        3. Read the Diagnostic Trouble Codes
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Select the option to read diagnostic trouble codes. The scanner may
+                        display codes such as <strong>P0300</strong>, <strong>P0420</strong>,
+                        or other codes depending on the detected problem.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        Write down or save the codes before clearing anything. The code is a
+                        starting point for diagnosis, not necessarily a direct instruction to
+                        replace a particular component.
+                    </p>
+
+
+                    <!-- STEP 4 -->
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        4. Diagnose and Address the Cause
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Use the code information, vehicle service information, and observed
+                        symptoms to investigate the cause. Depending on the code, the issue
+                        could involve sensors, wiring, ignition components, fuel delivery,
+                        emissions equipment, or mechanical components.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        Do not automatically replace a part simply because its name appears
+                        in a trouble-code description. Proper diagnosis may require additional
+                        testing.
+                    </p>
+
+
+                    <!-- STEP 5 -->
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        5. Clear the Stored Codes
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Once the underlying issue has been addressed, use the scanner's
+                        <strong>Clear Codes</strong>, <strong>Erase Codes</strong>, or similar
+                        function.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        The exact menu wording varies between scanners. Follow the instructions
+                        supplied with your particular device.
+                    </p>
+
+
+                    <!-- STEP 6 -->
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        6. Turn the Ignition Off and Restart the Vehicle
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        After clearing the codes, follow the scanner instructions and switch
+                        the ignition off if required. Restart the vehicle and check whether
+                        the Check Engine light remains off.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        If the problem has not been corrected, the light may return immediately
+                        or after the vehicle completes additional diagnostic checks.
+                    </p>
+
+
+                    <!-- STEP 7 -->
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        7. Drive Normally and Monitor the Vehicle
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Some emissions-related diagnostic systems require specific driving
+                        conditions before their self-tests run. After a reset, some monitors
+                        may temporarily show as incomplete.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        If the Check Engine light returns, the underlying fault may still be
+                        present and should be investigated rather than repeatedly erased.
+                    </p>
+
+
+                    <!-- BATTERY METHOD -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 35px; margin-bottom: 12px;">
+                        Can Disconnecting the Battery Clear the Check Engine Light?
+                    </h2>
+
+                    <p style="margin-bottom: 15px;">
+                        On some older or simpler vehicles, disconnecting the battery may clear
+                        stored diagnostic information. However, this is not a universal solution
+                        and is generally less useful than using a scan tool.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        Disconnecting the battery can also reset learned engine-management
+                        settings, radio presets, clock settings, or other electronic features
+                        depending on the vehicle.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        Some vehicles may also require security codes, relearning procedures,
+                        or additional setup after battery power is disconnected.
+                    </p>
+
+
+                    <div style="background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px 20px; margin: 20px 0; border-radius: 0 6px 6px 0;">
+
+                        <strong style="color: #2b6cb0;">
+                            Better Option:
+                        </strong>
+
+                        <p style="margin-top: 6px; color: #2d3748;">
+                            If possible, use an OBD2 scanner. It allows you to read and save
+                            diagnostic information before clearing codes and avoids unnecessarily
+                            disconnecting the vehicle's battery.
+                        </p>
+
+                    </div>
+
+
+                    <!-- SMARTLINK -->
+                    <div class="ad-placeholder" style="background-color: #fffaf0; border-color: #fbd38d; padding: 15px; margin: 30px 0; border-radius: 6px; text-align: center;">
+                        <!-- сюди встане кнопка/посилання зі Smartlink -->
+                    </div>
+
+
+                    <!-- WHY LIGHT RETURNS -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 35px; margin-bottom: 12px;">
+                        Why Does the Check Engine Light Come Back?
+                    </h2>
+
+                    <p style="margin-bottom: 15px;">
+                        Clearing a code does not repair the component or system that caused the
+                        original fault. If the vehicle detects the same problem again, it can
+                        store the code and turn the warning light back on.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        A returning light may indicate that the original problem was not fully
+                        repaired, the wrong component was replaced, or another related fault
+                        exists.
+                    </p>
+
+                    <ul style="padding-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+                        <li>The original fault is still present.</li>
+                        <li>A replacement component did not solve the actual problem.</li>
+                        <li>Wiring or electrical connections still have an issue.</li>
+                        <li>A sensor is reporting another related fault.</li>
+                        <li>The vehicle has not completed all required diagnostic tests yet.</li>
+                        <li>A different fault has developed.</li>
+                    </ul>
+
+
+                    <!-- COMMON EXAMPLES -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 35px; margin-bottom: 12px;">
+                        Common Reasons a Check Engine Light Turns On
+                    </h2>
+
+                    <p style="margin-bottom: 15px;">
+                        A Check Engine light can be triggered by many different conditions.
+                        Some common examples include:
+                    </p>
+
+                    <ul style="padding-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+                        <li>Loose or faulty fuel cap</li>
+                        <li>Engine misfire</li>
+                        <li>Oxygen sensor problems</li>
+                        <li>Mass airflow sensor issues</li>
+                        <li>Evaporative emissions system leaks</li>
+                        <li>Catalytic converter efficiency problems</li>
+                        <li>Ignition system faults</li>
+                        <li>Fuel system problems</li>
+                        <li>Wiring or electrical faults</li>
+                    </ul>
+
+
+                    <!-- WHEN NOT TO CLEAR -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 35px; margin-bottom: 12px;">
+                        When You Should Not Simply Clear the Light
+                    </h2>
+
+                    <p style="margin-bottom: 15px;">
+                        Clearing a Check Engine light without investigating the cause can erase
+                        useful diagnostic information. It may also make it harder to determine
+                        what happened if the vehicle is later inspected.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        If the light is flashing, the engine is running very poorly, the vehicle
+                        has lost significant power, or unusual smoke or smells are present,
+                        treat the situation as more than a simple warning-light reset.
+                    </p>
+
+                    <p style="margin-bottom: 15px;">
+                        In these situations, stopping the vehicle and obtaining appropriate
+                        diagnosis may be safer than continuing to drive.
+                    </p>
+
+
+                    <!-- COMMON MISTAKES -->
+                    <h2 style="font-size: 1.4rem; color: var(--primary-color); margin-top: 35px; margin-bottom: 12px;">
+                        Common Check Engine Light Reset Mistakes
+                    </h2>
+
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        Clearing the Code Without Recording It
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Always record diagnostic trouble codes before clearing them. The stored
+                        information may be useful for diagnosing an intermittent problem.
+                    </p>
+
+
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        Assuming the Code Identifies the Exact Failed Part
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Diagnostic codes usually point toward a system or condition. Additional
+                        testing may be required before identifying the actual failed component.
+                    </p>
+
+
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        Disconnecting the Battery Without Checking the Manual
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        Battery disconnection can affect vehicle settings and learned values.
+                        Check the manufacturer's instructions before using this method.
+                    </p>
+
+
+                    <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">
+                        Repeatedly Clearing a Returning Code
+                    </h3>
+
+                    <p style="margin-bottom: 15px;">
+                        If the same warning returns, repeatedly clearing it does not solve the
+                        underlying problem. The vehicle should be diagnosed to determine why
+                        the fault keeps coming back.
+                    </p>
+
+
+                    <!-- FAQ -->
+                    <section style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);" itemscope itemtype="https://schema.org/FAQPage">
+
+                        <h2 style="font-size: 1.3rem; color: var(--primary-color); margin-bottom: 15px;">
+                            Frequently Asked Questions
+                        </h2>
+
+
+                        <div style="margin-bottom: 15px;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+                            <strong itemprop="name">
+                                Q: How do I clear the Check Engine light?
+                            </strong>
+
+                            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+                                <p itemprop="text" style="font-size: 0.95rem; color: #4a5568; margin-top: 4px;">
+                                    The preferred method is to use a compatible OBD2 scanner to
+                                    read the diagnostic codes, address the underlying problem,
+                                    and then use the scanner's clear or erase function.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div style="margin-bottom: 15px;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+                            <strong itemprop="name">
+                                Q: Can I clear the Check Engine light without a scanner?
+                            </strong>
+
+                            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+                                <p itemprop="text" style="font-size: 0.95rem; color: #4a5568; margin-top: 4px;">
+                                    Some vehicles may clear stored information after the battery
+                                    is disconnected, but this varies by vehicle and can reset
+                                    learned settings. Using an OBD2 scanner is generally the more
+                                    informative approach.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div style="margin-bottom: 15px;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+                            <strong itemprop="name">
+                                Q: Will disconnecting the battery reset the Check Engine light?
+                            </strong>
+
+                            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+                                <p itemprop="text" style="font-size: 0.95rem; color: #4a5568; margin-top: 4px;">
+                                    It may clear some stored information on certain vehicles,
+                                    but it is not a universal method. It can also reset learned
+                                    settings and other electronic features.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div style="margin-bottom: 15px;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+                            <strong itemprop="name">
+                                Q: Does clearing a Check Engine light fix the problem?
+                            </strong>
+
+                            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+                                <p itemprop="text" style="font-size: 0.95rem; color: #4a5568; margin-top: 4px;">
+                                    No. Clearing the warning light only removes stored diagnostic
+                                    information or turns off the warning temporarily. If the
+                                    underlying fault remains, the light can return.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div style="margin-bottom: 15px;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+                            <strong itemprop="name">
+                                Q: How long does it take for the Check Engine light to come back?
+                            </strong>
+
+                            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+                                <p itemprop="text" style="font-size: 0.95rem; color: #4a5568; margin-top: 4px;">
+                                    It depends on the fault and the vehicle. Some problems can
+                                    trigger the light again almost immediately, while emissions
+                                    and other diagnostic monitors may require specific driving
+                                    conditions before the fault is detected again.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div style="margin-bottom: 15px;" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+                            <strong itemprop="name">
+                                Q: Is it safe to drive with the Check Engine light on?
+                            </strong>
+
+                            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+                                <p itemprop="text" style="font-size: 0.95rem; color: #4a5568; margin-top: 4px;">
+                                    A steady Check Engine light does not always indicate an
+                                    immediate emergency, but the cause should still be investigated.
+                                    A flashing light, severe engine misfire, loss of power, or
+                                    other serious symptoms should be treated more urgently.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- RELATED ARTICLES -->
+                    <section style="margin-top: 40px; background-color: var(--bg-light); padding: 20px; border-radius: 6px;">
+
+                        <h3 style="font-size: 1.1rem; color: var(--primary-color); margin-bottom: 10px;">
+                            Related Troubleshooting & Repair Guides
+                        </h3>
+
+                        <ul style="list-style-type: square; padding-left: 20px;">
+
+                            <li style="margin-bottom: 6px;">
+                                <a href="../symptoms/index.html">
+                                    Car Symptoms & Diagnosis Guides
+                                </a>
+                            </li>
+
+                            <li style="margin-bottom: 6px;">
+                                <a href="../explanations/index.html">
+                                    Automotive System Explanations
+                                </a>
+                            </li>
+
+                            <li style="margin-bottom: 6px;">
+                                <a href="index.html">
+                                    More DIY Car Repair Guides
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </section>
+
+                </article>
+
+            </div>
+
+
+            <!-- ПРАВА КОЛОНКА: SIDEBAR 160x600 -->
+            <aside class="sidebar">
+
+                <div class="ad-placeholder" style="width: 160px; height: 600px; background-color: #edf2f7; border: 1px dashed #cbd5e0; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: #a0aec0; text-align: center;">
+
+                    <!-- сюди встане код банера 160x600 -->
+                    Banner 160x600
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-col">
+
+                    <h4>AutoGuide</h4>
+
+                    <p style="font-size: 0.85rem; color: #cbd5e0;">
+                        Providing clear, easy-to-understand automotive guidance for everyday drivers.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-col">
+
+                    <h4>Categories</h4>
+
+                    <ul>
+
+                        <li>
+                            <a href="../symptoms/index.html">Symptoms</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html">Solutions</a>
+                        </li>
+
+                        <li>
+                            <a href="../explanations/index.html">Explanations</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-col">
+
+                    <h4>Legal & Info</h4>
+
+                    <ul>
+
+                        <li>
+                            <a href="../about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="../contact.html">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="../privacy-policy.html">Privacy Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="../terms.html">Terms of Service</a>
+                        </li>
+
+                        <li>
+                            <a href="../editorial-policy.html">Editorial Policy</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="disclaimer-text">
+
+                <strong>Disclaimer:</strong>
+                The content on AutoGuide is for informational and educational purposes only.
+                It is not intended as professional automotive advice. Always consult a certified
+                mechanic or your vehicle's service manual before attempting repairs.
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                &copy; <span id="current-year"></span> AutoGuide. All rights reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- REKLAMA: SOCIAL BAR PLACEHOLDER -->
+    <!-- Сюди перед закриваючим body встане скрипт Social Bar -->
+
+
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
+```
