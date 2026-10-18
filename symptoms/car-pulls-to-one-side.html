@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,6 @@
     <link rel="icon" type="image/png" href="../images/favicon.png">
     <link rel="stylesheet" href="../css/style.css">
     
-    <!-- СТИЛІ ДЛЯ СЕКЦІЇ З САЙДБАРОМ -->
     <style>
         .page-layout {
             display: flex;
@@ -18,23 +18,6 @@
         .main-content {
             flex: 1;
             min-width: 0; /* Запобігає розтягуванню Flex-контейнера */
-        }
-        .sidebar {
-            width: 160px;
-            position: sticky;
-            top: 20px; /* Баннер залишається при прокручуванні */
-            flex-shrink: 0;
-        }
-        @media (max-width: 900px) {
-            .page-layout {
-                flex-direction: column;
-            }
-            .sidebar {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                margin-top: 20px;
-            }
         }
     </style>
 </head>
@@ -68,10 +51,9 @@
             <span>Car Pulls to One Side</span>
         </nav>
 
-        <!-- ДВОКОЛОНКОВИЙ ЛЕЙАУТ: ОСНОВНИЙ ТЕКСТ + САЙДБАР -->
+        <!-- ОСНОВНИЙ КОНТЕНТ -->
         <div class="page-layout">
             
-            <!-- ЛІВА КОЛОНКА (ОСНОВНИЙ КОНТЕНТ) -->
             <div class="main-content">
                 <article>
                     <!-- 1. H1 ЗАПИТАННЯ -->
@@ -115,20 +97,6 @@
                         Hitting potholes, curbs, or rough road surfaces can knock your wheel alignment out of spec. Changes in <em>camber</em> (inward/outward tilt) or <em>caster</em> (steering pivot angle) will constantly drag your vehicle off-center toward the side with less caster or more positive camber.
                     </p>
 
-                    <!-- REKLAMA: IN-ARTICLE BANNER -->
-                    <div class="ad-placeholder ad-banner" style="margin: 25px 0; text-align: center;">
-                        <script>
-                         atOptions = {
-                          'key' : '210ac867498fca52ba6078a9a3cc67f4',
-                          'format' : 'iframe',
-                          'height' : 600,
-                          'width' : 160,
-                          'params' : {}
-                         };
-                        </script>
-                        <script src="https://www.highrevenueformat.com/210ac867498fca52ba6078a9a3cc67f4/invoke.js"></script>
-                    </div>
-
                     <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">3. Sticking Brake Caliper</h3>
                     <p style="margin-bottom: 15px;">
                         If a front brake caliper piston or guide pin seizes, the pad remains pressed against the rotor while driving. This continuous drag pulls the vehicle to that side, builds excessive heat, and creates a faint burning smell from the affected wheel well.
@@ -148,13 +116,6 @@
                         <li><strong>Swap Front Tires:</strong> Move the front left tire to the front right. If the pull flips direction, you have a defective or unevenly worn tire (radial pull).</li>
                         <li><strong>Check Wheel Heat:</strong> After driving, carefully place your hand near (not directly on) the front wheels. An unusually hot wheel indicates a stuck dragging brake.</li>
                     </ul>
-
-                    <!-- REKLAMA: SMARTLINK PLACEHOLDER -->
-                    <div class="ad-placeholder" style="background-color: #fffaf0; border-color: #fbd38d; padding: 15px; margin: 30px 0; border-radius: 6px; text-align: center;">
-                        <a href="https://www.profitableratecpmnetwork.com/jmpuekf9r?key=e5a6e5db00a49a679388be6dd93b102b" target="_blank" rel="noopener" style="display: inline-block; padding: 12px 24px; background-color: var(--accent-color, #0066cc); color: #ffffff; font-weight: bold; text-decoration: none; border-radius: 5px;">
-                            Check Recommended Diagnostic Tools &rarr;
-                        </a>    
-                    </div>
 
                     <!-- FAQ SECTION -->
                     <section style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
@@ -182,23 +143,6 @@
 
                 </article>
             </div>
-
-            <!-- ПРАВА КОЛОНКА (САЙДБАР ДЛЯ БАННЕРА 160x600) -->
-            <aside class="sidebar">
-                <div class="ad-placeholder" style="width: 160px; height: 600px; background-color: #edf2f7; border: 1px dashed #cbd5e0; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: #a0aec0; text-align: center;">
-                    <script>
-                     atOptions = {
-                       'key' : '210ac867498fca52ba6078a9a3cc67f4',
-                       'format' : 'iframe',
-                       'height' : 600,
-                       'width' : 160,
-                       'params' : {}
-                      };
-                    </script>
-                    <script src="https://www.highrevenueformat.com/210ac867498fca52ba6078a9a3cc67f4/invoke.js"></script>
-                    
-                </div>
-            </aside>
 
         </div>
     </main>
@@ -240,9 +184,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- REKLAMA: SOCIAL BAR PLACEHOLDER -->
-    <script src="https://pl31607710.profitableratecpmnetwork.com/70/7a/59/707a592d5ba3474d72f38230eb9ef1bc.js"></script>
 
     <script src="../js/main.js"></script>
 </body>
