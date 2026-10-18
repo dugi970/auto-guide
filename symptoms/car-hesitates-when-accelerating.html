@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,6 @@
     <link rel="icon" type="image/png" href="../images/favicon.png">
     <link rel="stylesheet" href="../css/style.css">
     
-    <!-- СТИЛІ ДЛЯ СЕКЦІЇ З САЙДБАРОМ -->
     <style>
         .page-layout {
             display: flex;
@@ -18,23 +18,6 @@
         .main-content {
             flex: 1;
             min-width: 0; /* Запобігає розтягуванню Flex-контейнера */
-        }
-        .sidebar {
-            width: 160px;
-            position: sticky;
-            top: 20px; /* Баннер залишається при прокручуванні */
-            flex-shrink: 0;
-        }
-        @media (max-width: 900px) {
-            .page-layout {
-                flex-direction: column;
-            }
-            .sidebar {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                margin-top: 20px;
-            }
         }
     </style>
 </head>
@@ -68,10 +51,9 @@
             <span>Car Hesitates When Accelerating</span>
         </nav>
 
-        <!-- ДВОКОЛОНКОВИЙ ЛЕЙАУТ: ОСНОВНИЙ ТЕКСТ + САЙДБАР -->
+        <!-- ОСНОВНИЙ КОНТЕНТ -->
         <div class="page-layout">
             
-            <!-- ЛІВА КОЛОНКА (ОСНОВНИЙ КОНТЕНТ) -->
             <div class="main-content">
                 <article>
                     <!-- 1. H1 ЗАПИТАННЯ -->
@@ -115,20 +97,6 @@
                         A clogged fuel filter, a weak fuel pump, or dirty fuel injectors can maintain baseline fuel pressure at idle but fail to deliver the increased volume required during hard acceleration. This creates a "lean condition" where the engine bogs down until you lift off the throttle.
                     </p>
 
-                    <!-- REKLAMA: IN-ARTICLE BANNER -->
-                    <div class="ad-placeholder ad-banner" style="margin: 25px 0; text-align: center;">
-                        <script>
-                         atOptions = {
-                          'key' : '210ac867498fca52ba6078a9a3cc67f4',
-                          'format' : 'iframe',
-                          'height' : 600,
-                          'width' : 160,
-                          'params' : {}
-                         };
-                       </script>
-                       <script src="https://www.highrevenueformat.com/210ac867498fca52ba6078a9a3cc67f4/invoke.js"></script>
-                    </div>
-
                     <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px;">3. Dirty Mass Air Flow (MAF) Sensor</h3>
                     <p style="margin-bottom: 15px;">
                         The MAF sensor measures the exact volume of air entering the engine. If dust or oil coats its internal wire, the sensor underreports incoming airflow. The engine computer fails to supply enough fuel when the throttle opens, leading to a momentary pause or lag.
@@ -148,13 +116,6 @@
                         <li><strong>Clean the MAF Sensor:</strong> Spraying the sensor wire with specialized MAF cleaner aerosol spray often restores smooth throttle response immediately.</li>
                         <li><strong>Inspect the Air Intake Hose:</strong> Bend the rubber intake tube in your hands to look for hidden cracks between the air filter box and the throttle body.</li>
                     </ul>
-
-                    <!-- REKLAMA: SMARTLINK PLACEHOLDER -->
-                    <div class="ad-placeholder" style="background-color: #fffaf0; border-color: #fbd38d; padding: 15px; margin: 30px 0; border-radius: 6px; text-align: center;">
-                        <a href="https://www.profitableratecpmnetwork.com/jmpuekf9r?key=e5a6e5db00a49a679388be6dd93b102b" target="_blank" rel="noopener" style="display: inline-block; padding: 12px 24px; background-color: var(--accent-color, #0066cc); color: #ffffff; font-weight: bold; text-decoration: none; border-radius: 5px;">
-                            Check Recommended Diagnostic Tools &rarr;
-                        </a>    
-                    </div>
 
                     <!-- FAQ SECTION -->
                     <section style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
@@ -182,23 +143,6 @@
 
                 </article>
             </div>
-
-            <!-- ПРАВА КОЛОНКА (САЙДБАР ДЛЯ БАННЕРА 160x600) -->
-            <aside class="sidebar">
-                <div class="ad-placeholder" style="width: 160px; height: 600px; background-color: #edf2f7; border: 1px dashed #cbd5e0; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: #a0aec0; text-align: center;">
-                    <script>
-                     atOptions = {
-                       'key' : '210ac867498fca52ba6078a9a3cc67f4',
-                       'format' : 'iframe',
-                       'height' : 600,
-                       'width' : 160,
-                       'params' : {}
-                      };
-                   </script>
-                   <script src="https://www.highrevenueformat.com/210ac867498fca52ba6078a9a3cc67f4/invoke.js"></script>
-                    
-                </div>
-            </aside>
 
         </div>
     </main>
@@ -240,9 +184,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- REKLAMA: SOCIAL BAR PLACEHOLDER -->
-    <script src="https://pl31607710.profitableratecpmnetwork.com/70/7a/59/707a592d5ba3474d72f38230eb9ef1bc.js"></script>
 
     <script src="../js/main.js"></script>
 </body>
