@@ -3,51 +3,51 @@
 
     <!-- MAIN PAGE -->
     <url>
-        <loc>https://dugi970.github.io/auto-guide/</loc>
+        <loc>https://auto.dataspecshub.com/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- LEGAL & INFO PAGES -->
     <url>
-        <loc>https://dugi970.github.io/auto-guide/about.html</loc>
+        <loc>https://auto.dataspecshub.com/about.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://dugi970.github.io/auto-guide/contact.html</loc>
+        <loc>https://auto.dataspecshub.com/contact.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://dugi970.github.io/auto-guide/editorial-policy.html</loc>
+        <loc>https://auto.dataspecshub.com/editorial-policy.html</loc>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://dugi970.github.io/auto-guide/privacy-policy.html</loc>
+        <loc>https://auto.dataspecshub.com/privacy-policy.html</loc>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://dugi970.github.io/auto-guide/terms.html</loc>
+        <loc>https://auto.dataspecshub.com/terms.html</loc>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
 
     <!-- CATEGORY INDEXES -->
     <url>
-        <loc>https://dugi970.github.io/auto-guide/solutions/index.html</loc>
+        <loc>https://auto.dataspecshub.com/solutions/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://dugi970.github.io/auto-guide/symptoms/index.html</loc>
+        <loc>https://auto.dataspecshub.com/symptoms/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://dugi970.github.io/auto-guide/explanations/index.html</loc>
+        <loc>https://auto.dataspecshub.com/explanations/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
